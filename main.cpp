@@ -107,7 +107,7 @@ void verificaTiro(char tabuleiro[10][10], int linhaJogada, int colunaJogada, int
             break;
         case 'M':
             pontos += 20;
-            mensagem = "Voce acertou um Barco Médio! (20 pts)";
+            mensagem = "Voce acertou um Barco Medio! (20 pts)";
             break;
         case 'G':
             pontos += 50;
@@ -135,7 +135,7 @@ void sobre(){
     cout << "Divirta-se jogando e aprimorando suas habilidades de programacao!\n\n";
     cout << "Criado por Thiago Petenusso Viana em 01/07/2024\n";
     cout << "Pressione ENTER para voltar ao menu.\n";
-    cin.ignore();  // Aguarda a entrada do usuário para voltar ao menu
+    cin.ignore();  // Aguarda a entrada do usuÃ¡rio para voltar ao menu
     cin.get();
     menuInicial();
 }
@@ -235,7 +235,7 @@ void menuInicial() {
                 sobre();
                 break;
             case 3:
-                cout << "Até mais!\n";
+                cout << "AtÃ© mais!\n";
                 return;
         }
     }
